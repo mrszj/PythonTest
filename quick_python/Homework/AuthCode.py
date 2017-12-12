@@ -8,7 +8,7 @@ from pytesseract.pytesseract  import  image_to_string
 
 
 '''python版本：3.4.3
-所需要的代码库：PIL，selenium，tesseract
+所需要的代码库：PIL，selenium，tesseract,pytesseract
 '''
 
 def cleanImage(imagePath):

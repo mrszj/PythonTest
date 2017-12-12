@@ -1,0 +1,87 @@
+1513062088222	geckodriver	INFO	geckodriver 0.19.0 (f0b5f3476d8b05a3bacebb06056ff933e26a17fa 2017-09-16)
+1513062088253	geckodriver	INFO	Listening on 127.0.0.1:28743
+1513062090271	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\szj\\AppData\\Local\\Temp\\rust_mozprofile.TAY2laTWxPvj"
+1513062090856	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1513062092097	Marionette	INFO	Enabled via --marionette
+1513062097696	Marionette	INFO	Listening on port 28749
+1513062097736	Marionette	INFO	Listening on port 28749
+1513062097812	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513062097899	Marionette	DEBUG	loaded listener.js
+1513062097966	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513062099032	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513062099032	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513062100148	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mail.qq.com/"
+1513062100778	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://xui.ptlogin2.qq.com/cgi-bin/xlogin?appid=522005705&daid=4&s_url=https://mail.qq.com/cgi-bin/login?vt=passport%26vm=wpt%26ft=loginpage%26target=&style=25&low_login=1&proxy_url=https://mail.qq.com/proxy.html&need_qr=0&hide_border=1&border_radius=0&self_regurl=http://zc.qq.com/chs/index.html?type=1&app_id=11005?t=regist&pt_feedback_link=http://support.qq.com/discuss/350_1.shtml&css=https://res.mail.qq.com/zh_CN/htmledition/style/ptlogin_input24e6b9.css"
+1513062105550	Marionette	DEBUG	Received DOM event "pageshow" for "https://xui.ptlogin2.qq.com/cgi-bin/xlogin?appid=522005705&daid=4&s_url=https://mail.qq.com/cgi-bin/login?vt=passport%26vm=wpt%26ft=loginpage%26target=&style=25&low_login=1&proxy_url=https://mail.qq.com/proxy.html&need_qr=0&hide_border=1&border_radius=0&self_regurl=http://zc.qq.com/chs/index.html?type=1&app_id=11005?t=regist&pt_feedback_link=http://support.qq.com/discuss/350_1.shtml&css=https://res.mail.qq.com/zh_CN/htmledition/style/ptlogin_input24e6b9.css"
+1513062105553	Marionette	DEBUG	Received DOM event "pageshow" for "https://mail.qq.com/"
+1513062105900	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513062106313	Marionette	DEBUG	Received DOM event "beforeunload" for "https://xui.ptlogin2.qq.com/cgi-bin/xlogin?appid=522005705&daid=4&s_url=https://mail.qq.com/cgi-bin/login?vt=passport%26vm=wpt%26ft=loginpage%26target=&style=25&low_login=1&proxy_url=https://mail.qq.com/proxy.html&need_qr=0&hide_border=1&border_radius=0&self_regurl=http://zc.qq.com/chs/index.html?type=1&app_id=11005?t=regist&pt_feedback_link=http://support.qq.com/discuss/350_1.shtml&css=https://res.mail.qq.com/zh_CN/htmledition/style/ptlogin_input24e6b9.css"
+1513062108354	Marionette	DEBUG	Received DOM event "pagehide" for "https://mail.qq.com/"
+1513062108355	Marionette	DEBUG	Received DOM event "pagehide" for "https://xui.ptlogin2.qq.com/cgi-bin/xlogin?appid=522005705&daid=4&s_url=https://mail.qq.com/cgi-bin/login?vt=passport%26vm=wpt%26ft=loginpage%26target=&style=25&low_login=1&proxy_url=https://mail.qq.com/proxy.html&need_qr=0&hide_border=1&border_radius=0&self_regurl=http://zc.qq.com/chs/index.html?type=1&app_id=11005?t=regist&pt_feedback_link=http://support.qq.com/discuss/350_1.shtml&css=https://res.mail.qq.com/zh_CN/htmledition/style/ptlogin_input24e6b9.css"
+1513062108355	Marionette	DEBUG	Received DOM event "unload" for "https://xui.ptlogin2.qq.com/cgi-bin/xlogin?appid=522005705&daid=4&s_url=https://mail.qq.com/cgi-bin/login?vt=passport%26vm=wpt%26ft=loginpage%26target=&style=25&low_login=1&proxy_url=https://mail.qq.com/proxy.html&need_qr=0&hide_border=1&border_radius=0&self_regurl=http://zc.qq.com/chs/index.html?type=1&app_id=11005?t=regist&pt_feedback_link=http://support.qq.com/discuss/350_1.shtml&css=https://res.mail.qq.com/zh_CN/htmledition/style/ptlogin_input24e6b9.css"
+JavaScript warning: https://rescdn.qqmail.com/zh_CN/htmledition/js/all398198.js, line 1685: unreachable code after return statement
+1513062110637	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mail.qq.com/cgi-bin/frame_html?sid=P53FgrTHVKuE010H&r=0f8d7b3292239422ece580dc3c186347"
+1513062110637	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1513062110993	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://rescdn.qqmail.com/zh_CN/htmledition/js/all398198.js, line 1685: unreachable code after return statement
+JavaScript warning: https://rescdn.qqmail.com/zh_CN/htmledition/js/compose2392e91.js, line 8576: unreachable code after return statement
+[Parent 12348] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12348] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12348] WARNING: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 12348] WARNING: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 12348] WARNING: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 12348] WARNING: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+JavaScript warning: https://rescdn.qqmail.com/zh_CN/htmledition/js/readmail2392e89.js, line 115: unreachable code after return statement
+JavaScript warning: https://rescdn.qqmail.com/zh_CN/htmledition/js/readmail2392e89.js, line 3992: unreachable code after return statement
+h_CN/htmledition/js/all398198.js, line 597: TypeError: a.getAttribute is not a function
+JavaScript error: https://rescdn.qqmail.com/zh_CN/htmledition/js/allJavaScript error: https://rescdn.qqmail.com/zh_CN/htmledition/js/all398198.js, line 597: TypeError: a.getAttribute is not a function
+[GPU 12144] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 12144] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5684] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10588] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 121console.error: 
+  Message: Error: SessionFile is closed
+  Stack:
+    write@resource:///modules/sessionstore/SessionFile.jsm:315:29
+write@resource:///modules/sessionstore/SessionFile.jsm:74:12
+_writeState@resource:///modules/sessionstore/SessionSaver.jsm:343:12
+_saveState@resource:///modules/sessionstore/SessionSaver.jsm:281:12
+_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:327:5
+runDelayed/this._timeoutID<@resource:///modules/sessionstore/SessionSaver.jsm:184:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8832] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 10420] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ce://devtools/server/main.js:1799:15
+receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+findCssSelector@resource://gre/modules/css-selector.js:59:7
+getUniqueSelector@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:653:12
+handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1799:15
+receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+*************************
+A coding exception was thrown in a Promise resolution callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this._containers is null
+Full stack: getContainer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/markup/markup.js:472:5
+showNode/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/markup/markup.js:1134:30
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+*************************
+[GPU 11008] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 11008] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10016] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9672] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9672] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 11008] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
