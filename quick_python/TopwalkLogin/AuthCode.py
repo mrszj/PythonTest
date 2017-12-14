@@ -37,7 +37,7 @@ def getAuthCode(driver, url):
     myim.save("captcha.png")
     cleanImage("captcha.png")
 
-    print image_to_string(Image.open("captcha.png"))
+    print(image_to_string(Image.open("captcha.png")))
 
     # p = subprocess.Popen(["tesseract", "captcha.png", "captcha.txt"], stdout= subprocess.PIPE,stderr=subprocess.PIPE)
     # p.wait()
